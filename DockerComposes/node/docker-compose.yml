@@ -3,7 +3,7 @@ services:
   node:
     build:
       context: ./
-      dockerfile: ./docker/node/Dockerfile
+      dockerfile: ./Docker/node/Dockerfile
     volumes:
       - ./:/var/www/node
       - node_modules:/var/www/node/node_modules

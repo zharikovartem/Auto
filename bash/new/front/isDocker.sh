@@ -8,7 +8,7 @@ then
     # Dockerfile
     cp ./DockerFiles/node/Dockerfile ./Docker/node/Dockerfile
     # Dockerfile
-    cp ./DockerComposes/node/docker-compose.yml ./Docker/node/docker-compose.yml
+    cp ./DockerComposes/node/docker-compose.yml docker-compose.yml
 
     echo '1 - prod'
     echo '2 - prod/dev'
@@ -18,7 +18,11 @@ then
     if [[ ${envtype} == "3" ]]
     then
         echo 'prod/dev/local!!!'
-        cp ./DockerComposes/node/docker-compose-dev.yml ./Docker/node/docker-compose-dev.yml
+        cp ./DockerComposes/node/docker-compose-dev.yml docker-compose-dev.yml
+
+        echo 'docker stop $(docker ps -a -q);' >> start.sh
+        echo 'read -p "Enter node env server: dev/prod/local   > " envsrv' >> start.sh
+        echo 'docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build;' >> start.sh
     fi
 
 fi
