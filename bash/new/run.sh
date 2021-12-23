@@ -1,7 +1,7 @@
 echo RUN INSTALL NEW PROJECT
 
 touch .gitignore
-echo .Docker >> .gitignore
+echo .Docker >> /gitignore
 
 read -p "Нужен ли нам фронт? y/n   > " isfront
 
