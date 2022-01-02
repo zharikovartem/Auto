@@ -8,6 +8,7 @@ clean:
 
 push: 
 	git add .
+	read -p "Укажите имя коммита:   > " isfront
 	git commit -m "first commit"
 	git push
 
@@ -15,4 +16,5 @@ pull:
 	git pull
 
 new:
-	bash ./bash/new/run.sh
+	bash bash/folder/choiseFolder.sh 
+	# bash ./bash/new/run.sh
