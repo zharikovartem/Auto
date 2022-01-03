@@ -8,8 +8,9 @@ clean:
 
 push: 
 	git add .
-	read -p "Укажите имя коммита:   > " isfront
-	git commit -m "first commit"
+	read -p "Укажите имя коммита:   > " commit
+	echo commit
+	git commit -m "${commit}"
 	git push
 
 pull:
