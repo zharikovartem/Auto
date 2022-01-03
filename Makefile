@@ -1,6 +1,7 @@
 init:
-	rm -rf ./Makefile
-	git clone https://github.com/zharikovartem/Auto.git .
+	# rm -rf ./Makefile
+	# git clone https://github.com/zharikovartem/Auto.git .
+	bash bash/init/constant.sh
 
 clean:
 	rm -rf ./Bash
