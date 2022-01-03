@@ -15,3 +15,6 @@ pull:
 new:
 	bash bash/folder/choiseFolder.sh 
 	# bash ./bash/new/run.sh
+
+help:
+	echo "123"
