@@ -7,11 +7,7 @@ clean:
 	rm -rf ./Dockerfiles
 
 push: 
-	git add .
-	read -p "Укажите имя коммита:   > " commit
-	echo commit
-	git commit -m "${commit}"
-	git push
+	bash bash/git/push.sh 
 
 pull:
 	git pull
