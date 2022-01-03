@@ -1,9 +1,10 @@
 #!/bin/bash
 
-git status
 pwd
 git config --global user.name 'zharikovartem'
 git config --global user.email '7383125@mail.ru'
+git config -l
+
 
 read -p "Укажите имя коммита:   > " commit
 git add .
