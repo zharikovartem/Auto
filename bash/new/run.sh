@@ -12,5 +12,5 @@ read -p "Нужен ли нам бэк? y/n   > " isbackend
 
 if [[ ${isbackend} == "y" ]]
 then
-    bash ~/Desktop/Auto/bash/new/front/front.sh isfront
+    bash ~/Desktop/Auto/bash/new/backend/backend.sh isfront
 fi
