@@ -25,6 +25,11 @@ then
         echo 'docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build;' >> start.sh
 
         bash ./start.sh
+
+        echo 'docker-compose ps:'
+        docker-compose ps
+        echo 'docker ps:'
+        docker ps
     fi
 
 fi
