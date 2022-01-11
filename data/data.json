@@ -14,8 +14,8 @@
             "scripts": [
                 "start.sh"
             ],
-            "porp": 8080
-            
+            "porp": 8080,
+            "test": 123
         }
     ]
 }
