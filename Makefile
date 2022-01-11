@@ -1,5 +1,6 @@
 init:
 	bash bash/init/constant.sh
+	sudo apt-get install jq -y
 
 clean:
 	rm -rf ./Bash

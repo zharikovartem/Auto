@@ -1,0 +1,21 @@
+{
+    "servers": [ 
+        {
+            "name": "localhost",
+            "folder": "var/www/befree",
+            "ip": "127.0.0.1",
+            "password": 456
+        },
+        {
+            "name": "befree",
+            "folder": "var/www/befree",
+            "ip": "164.90.153.196",
+            "password": 22222222,
+            "scripts": [
+                "start.sh"
+            ],
+            "porp": 8080
+            
+        }
+    ]
+}
