@@ -12,7 +12,7 @@ if [[ ${isfront} == "y" ]]
 then
     echo 'continue'
     pwd
-    bash ~/Desktop/Auto/bash/new/run.sh
+    bash ~/Desktop/Auto/bash/new/isMulti.sh
     # /home/artem/Desktop/Auto/bash/new/run.sh
 fi
 

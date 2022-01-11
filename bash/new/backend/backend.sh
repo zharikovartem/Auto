@@ -15,6 +15,8 @@ fi
 if [[ ${framework} == "2" ]]
 then
     echo "Symfony"
+    bash ~/Desktop/Auto/bash/new/backend/symfony.sh
+    # bash ~/Desktop/Auto/bash/new/run.sh 1
 fi
 
 if [[ ${framework} == "3" ]]

@@ -1,6 +1,4 @@
 init:
-	# rm -rf ./Makefile
-	# git clone https://github.com/zharikovartem/Auto.git .
 	bash bash/init/constant.sh
 
 clean:
@@ -15,7 +13,6 @@ pull:
 
 new:
 	bash bash/folder/choiseFolder.sh 
-	# bash ./bash/new/run.sh
 
 help:
 	echo "123"

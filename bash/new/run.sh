@@ -5,7 +5,7 @@ read -p "Нужен ли нам фронт? y/n   > " isfront
 
 if [[ ${isfront} == "y" ]]
 then
-    bash ~/Desktop/Auto/bash/new/front/front.sh isfront
+    bash ~/Desktop/Auto/bash/new/front/front.sh $1
 fi
 
 read -p "Нужен ли нам бэк? y/n   > " isbackend

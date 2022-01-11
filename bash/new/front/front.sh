@@ -7,9 +7,23 @@ read -p "Выбери фреймворк  > " framework
 
 if [[ ${framework} == "1" ]]
 then
-    echo "React"
+    echo "React -> ${1}"
 
-    read -p "введите имя проекта  > " projectName
+    let projectName="front"
+
+    if [[ ${1} == "1" ]]
+    then
+        read -p "введите имя проекта (front)  > " projectName
+        if [[ ${projectName} == "" ]]
+        then
+            projectName="front"
+            echo "!!!projectName ${projectName}"
+        fi
+    else 
+        read -p "введите имя проекта  > " projectName
+    fi
+
+    echo "npx create-react-app ${projectName} --template typescript"
 
     npx create-react-app ${projectName} --template typescript
     cd $projectName
@@ -32,5 +46,12 @@ then
     fi
 
     # Нужен ли докер для фронта
+    echo "isMulti: ${1}"
     bash ~/Desktop/Auto/bash/new/front/isDocker.sh
+
+    if [[ ${1} == "1" ]]
+    then
+        cd ..
+        pwd
+    fi
 fi

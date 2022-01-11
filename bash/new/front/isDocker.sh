@@ -24,12 +24,16 @@ then
         echo 'read -p "Enter node env server: dev/prod/local   > " envsrv' >> start.sh
         echo 'docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build;' >> start.sh
 
-        bash ./start.sh
-
-        echo 'docker-compose ps:'
-        docker-compose ps
-        echo 'docker ps:'
-        docker ps
+        read -p "Смонтировать контейнер сейчас? y/n   > " isStart
+        if [[ ${isStart} == "y" ]]
+        then
+            bash ./start.sh
+            echo 'docker-compose ps:'
+            docker-compose ps
+            echo 'docker ps:'
+            docker ps
+        fi
+        
     fi
 
 fi
