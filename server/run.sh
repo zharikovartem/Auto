@@ -23,6 +23,10 @@ elif [[ ${1} == "settings"  ]] || [ ${1} == "s" ]
 then
     nano data/data.json
 
+    git add data/data.json
+    git commit -m "data update"
+    git push
+
 else
     # make ${1}
     echo ${1}
