@@ -16,6 +16,14 @@
             ],
             "porp": 8080,
             "test": 123
+        },
+        {
+            "name": "crm_front",
+            "ip": "135.181.90.57",
+            "password": "gfhjkmgfhjkm",
+            "scripts": [
+
+            ]
         }
     ]
 }
