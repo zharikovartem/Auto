@@ -25,8 +25,7 @@ then
 
     git add data/data.json
     git commit -m "data update"
-    git push
-
+    git push  
 else
     # make ${1}
     echo ${1}
