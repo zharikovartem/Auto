@@ -13,4 +13,4 @@ sudo usermod -aG docker $(whoami)
 sudo apt install docker-compose -y
 
 # sudo groupadd docker
-sudo usermod -aG docker ${USER}
+# sudo usermod -aG docker ${USER}
