@@ -10,8 +10,10 @@ bash other/init/install.sh  make
 bash other/init/install.sh  code
 # заменить файл
 bash other/init/install.sh  docker-ce
-bash other/init/install.sh nodejs
-bash other/init/install.sh npm
+# https://stackoverflow.com/questions/41195952/updating-nodejs-on-ubuntu-16-04
+# bash other/init/install.sh nodejs
+# bash other/init/install.sh npm
+# sudo apt install npm -y
 # bash other/init/install.sh composer
 bash other/init/install.sh dbeaver-ce
 bash other/init/install.sh postman
@@ -47,3 +49,5 @@ then
     sudo apt-get --purge remove php-common -y
     sudo apt-get install php-common php-mysql php-cli -y
 fi
+
+sudo apt update

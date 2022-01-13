@@ -42,7 +42,7 @@ then
     read -p "Нужно ли установить стартовые пакеты? y/n  > " startPocets
     if [[ ${startPocets} == "y" ]]
     then
-        npm i react-dom @types/react-dom react-router-dom @types/react-router-dom formik redux-thunk antd bootstrap react-bootstrap
+        npm i react-dom @types/react-dom react-router-dom @types/react-router-dom formik redux-thunk antd bootstrap react-bootstrap react-redux
     fi
 
     # Нужен ли докер для фронта
