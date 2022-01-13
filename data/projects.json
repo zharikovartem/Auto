@@ -1,0 +1,9 @@
+{
+    "crm_front": {
+        "init": {
+            "scripts": [
+                "sudo npm i"
+            ]
+        }
+    }
+}

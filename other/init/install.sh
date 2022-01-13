@@ -1,6 +1,7 @@
 #!/bin/bash
 
 dpkg -s $1 &> /dev/null  
+# dpkg -s slack
 
 if [ $? -ne 0 ]
 

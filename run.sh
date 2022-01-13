@@ -1,6 +1,9 @@
 #!/bin/bash
 
+pwd
 cd ~/Desktop/Auto
+
+pwd
 
 if [[ ${1} == "" ]]
 then
