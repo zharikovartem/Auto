@@ -14,14 +14,9 @@ bash other/init/install.sh nodejs
 bash other/init/install.sh npm
 # bash other/init/install.sh composer
 bash other/init/install.sh dbeaver-ce
+bash other/init/install.sh postman
 
-# echo -e "\e[30;48;5;82m Устанавливаются Библиотеки: \e[0;49m";
-# sudo apt update
-# sudo apt install -y build-essential
-# sudo apt install php php-pear php-dev libmcrypt-dev -y
-# sudo apt install php-curl php-memcached php-mysql php-pgsql php-gd php-imagick php-intl php-xml php-zip php-mbstring -y
-# sudo apt-get --purge remove php-common -y
-# sudo apt-get install php-common php-mysql php-cli -y
+
 
 
 echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
@@ -39,4 +34,16 @@ read -p "Composer install? y/n   >> " isComposer
 if [[ ${isComposer} == "y" ]]
 then
     bash other/init/soft/composer/install.sh
+fi
+
+read -p "Установить библиотеки? y/n   >> " isLib
+if [[ ${isLib} == "y" ]]
+then
+    echo -e "\e[30;48;5;82m Устанавливаются Библиотеки: \e[0;49m";
+    sudo apt update
+    sudo apt install -y build-essential
+    sudo apt install php php-pear php-dev libmcrypt-dev -y
+    sudo apt install php-curl php-memcached php-mysql php-pgsql php-gd php-imagick php-intl php-xml php-zip php-mbstring -y
+    sudo apt-get --purge remove php-common -y
+    sudo apt-get install php-common php-mysql php-cli -y
 fi
