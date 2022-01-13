@@ -18,6 +18,9 @@ bash other/init/install.sh  docker-ce
 bash other/init/install.sh dbeaver-ce
 bash other/init/install.sh postman
 
+# !!!!!!!!!!!!
+# npm install --global yarn
+
 
 
 
