@@ -1,9 +1,28 @@
 {
-    "crm_front": {
-        "init": {
-            "scripts": [
-                "sudo npm i"
+    "servers": [
+        {
+            "name": "crm_front",
+            "folder": "~/projects/crm_front",
+            "init": {
+                "scripts": [
+                    "sudo npm i"
+                ]
+            }
+        },
+        {
+            "name": "crm_front_new",
+            "folder": "~/projects/crm_front_new",
+            "init": {
+                "scripts": [
+                    "sudo npm i"
+                ]
+            },
+            "conturs": [
+                {
+                    "ip": "135.181.90.157",
+                    "password": "derect123##!"
+                }
             ]
         }
-    }
+    ]
 }

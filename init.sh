@@ -6,6 +6,7 @@ git config user.email 7383125@mail.ru
 
 echo -e "\e[30;48;5;82m Устанавливаются главные программы: \e[0;49m";
 echo ''
+sudo apt install jq
 bash other/init/install.sh  make
 bash other/init/install.sh  code
 # заменить файл
@@ -17,6 +18,7 @@ bash other/init/install.sh  docker-ce
 # bash other/init/install.sh composer
 bash other/init/install.sh dbeaver-ce
 bash other/init/install.sh postman
+
 
 # !!!!!!!!!!!!
 # npm install --global yarn
