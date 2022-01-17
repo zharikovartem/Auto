@@ -2,7 +2,7 @@
     "servers": [
         {
             "name": "crm_front",
-            "folder": "~/projects/crm_front",
+            "folder": "projects/crm_front",
             "init": {
                 "scripts": [
                     "sudo npm i"
@@ -11,7 +11,7 @@
         },
         {
             "name": "crm_front_new",
-            "folder": "~/projects/crm_front_new",
+            "folder": "projects/crm_front_new",
             "init": {
                 "scripts": [
                     "sudo npm i"

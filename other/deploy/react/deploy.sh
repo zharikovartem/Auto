@@ -29,3 +29,9 @@ touch /var/www/your_domain/html
 scp -r ./build/* root@135.181.90.157:/var/www/your_domain/html
 
 sudo systemctl restart nginx
+
+# root /var/www/crm_front_new/html;
+# try_files $uri /index.html;
+
+
+# прописать ssh
