@@ -1,5 +1,7 @@
 #!/bin/bash
 
+bash bash/git/getInfo.sh
+
 read -p "Укажите имя коммита:   > " commit
 
 if [[ ${commit} == "" ]]

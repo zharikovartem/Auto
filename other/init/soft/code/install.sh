@@ -8,6 +8,7 @@ sudo snap install --classic code
 
 # 2) add snippets
 # ~/.config/Code/User/snippets/shellscript.json
+cp -r ./other/init/soft/code/snippets ~/.config/Code/User/
 
 # 3) add extensions
 code --install-extension artagnon.vstwig --force
