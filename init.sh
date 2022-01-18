@@ -30,6 +30,7 @@ echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
 echo ''
 bash other/init/install.sh  telegram-desktop
 bash other/init/install.sh  slack
+sudo snap install whatsdesk
 
 read -p "add global MAKE? y/n   >> " isMake
 if [[ ${isMake} == "y" ]]
@@ -56,3 +57,8 @@ then
 fi
 
 sudo apt update
+
+# add ssh
+# chmod 700 ~/.ssh
+# chmod 600 ~/.ssh/id_rsa
+# chmod 644 ~/.ssh/*.pub

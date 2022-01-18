@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pwd
+oldDir=$(pwd)
 cd ~/Desktop/Auto
 
 pwd
@@ -14,6 +14,10 @@ then
     clear
     pwd
     bash server/run.sh ${2}
+
+elif [[ ${1} == "git" ]]
+then
+    bash ./bash/git/git.sh $oldDir
 
 else
     make ${1} ${2}

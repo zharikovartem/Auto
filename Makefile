@@ -26,3 +26,5 @@ help:
 
 serv:
 	bash ./server/run.sh 
+git:
+	bash ./bash/git/git.sh 
