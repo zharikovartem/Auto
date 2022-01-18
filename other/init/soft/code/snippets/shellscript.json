@@ -1,0 +1,17 @@
+{
+	"if ()": {
+		"prefix": ["1if", "for-const"],
+		"body": [
+			"if [[ ${1:var} == \"${2:val}\" ]]",
+			"then",
+			"\t",
+			"fi"
+		],
+		"description": "if to bash"
+	},
+
+    "Read": {
+        "prefix": ["1read", "for-const"],
+        "body": "read -p \"${1:message} ${3:y/n}   >> \" ${2:var}"
+    }
+}

@@ -4,33 +4,39 @@ clear
 git config user.name "zharikovartem"
 git config user.email 7383125@mail.ru
 
-echo -e "\e[30;48;5;82m Устанавливаются главные программы: \e[0;49m";
-echo ''
-sudo apt install jq
-bash other/init/install.sh  make
-bash other/init/install.sh  code
-# заменить файл
-bash other/init/install.sh  docker-ce
-# https://stackoverflow.com/questions/41195952/updating-nodejs-on-ubuntu-16-04
-# bash other/init/install.sh nodejs
-# bash other/init/install.sh npm
-# sudo apt install npm -y
-# bash other/init/install.sh composer
-bash other/init/install.sh dbeaver-ce
-bash other/init/install.sh postman
+read -p "Установить основные программы? y/n   >> " isMain
+echo $isMain
+if [[ $isMain == "y" ]]
+then
+    echo -e "\e[30;48;5;82m Устанавливаются главные программы: \e[0;49m";
+    echo ''
+    # sudo apt install jq # чтение из файла в shell
+    bash other/init/install.sh  jq
+    bash other/init/install.sh  make # утилита make
+    bash other/init/install.sh  code # vsCode
+    bash other/init/install.sh  docker-ce
+    # https://stackoverflow.com/questions/41195952/updating-nodejs-on-ubuntu-16-04
+    # bash other/init/install.sh nodejs
+    # bash other/init/install.sh npm
+    # sudo apt install npm -y
+    # bash other/init/install.sh composer
+    bash other/init/install.sh dbeaver-ce
+    bash other/init/install.sh postman
+    # !!!!!!!!!!!!
+    # npm install --global yarn
+fi
 
-
-# !!!!!!!!!!!!
-# npm install --global yarn
-
-
-
-
-echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
-echo ''
-bash other/init/install.sh  telegram-desktop
-bash other/init/install.sh  slack
-sudo snap install whatsdesk
+read -p "Установить мкссенджеры y/n   >> " isMeseengers
+if [[ $isMeseengers == "y" ]]
+then
+    echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
+    echo ''
+    bash other/init/install.sh  telegram-desktop
+    bash other/init/install.sh  slack
+    bash other/init/install.sh  skype
+    bash other/init/install.sh  viber
+    sudo snap install whatsdesk
+fi
 
 read -p "add global MAKE? y/n   >> " isMake
 if [[ ${isMake} == "y" ]]
@@ -57,6 +63,8 @@ then
 fi
 
 sudo apt update
+
+read -p "Установить ssh ключи? y/n   >> " isSSH
 
 # add ssh
 # chmod 700 ~/.ssh
