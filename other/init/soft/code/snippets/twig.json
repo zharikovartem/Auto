@@ -15,7 +15,7 @@
 	"new div": {
 		"prefix": ["1div", "for-const"],
 		"body": [
-			"<div class=\"${1}\"></div>"
+			"<div class=\"${1}\">${2}</div>"
 		]
 	}
 }

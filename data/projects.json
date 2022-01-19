@@ -1,6 +1,15 @@
 {
     "servers": [
         {
+            "name": "befree",
+            "folder": "projects/befree",
+            "init": {
+                "scripts": [
+                    "bash start.sh"
+                ]
+            }
+        },
+        {
             "name": "crm_front",
             "folder": "projects/crm_front",
             "init": {
