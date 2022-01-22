@@ -10,7 +10,7 @@
 # sudo certbot renew --dry-run
 
 sudo apt update
-sudo apt install nginx -yarn
+sudo apt install nginx -y
 
 sudo ufw app list
 sudo ufw allow 'Nginx Full'

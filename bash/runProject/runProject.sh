@@ -1,7 +1,8 @@
 #!/bin/bash
-echo "run project: ${1}"
+# echo "run project: ${1}"
 
-. ./libs/files.sh
+. ./libs/projects.sh
 
-result=$(myfunc 10 20)
+result=$(getProjectByName ${1})
+
 echo "The result is: $result"

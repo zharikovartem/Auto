@@ -6,3 +6,7 @@ function myfunc () {
     # return $(( $value + 10 ))
     echo $(( $1 + $2 ))
 }
+
+function getObjectList() {
+    echo $1
+}

@@ -5,7 +5,7 @@
             "folder": "projects/befree",
             "init": {
                 "scripts": [
-                    "bash start.sh"
+                    "bash_./start.sh"
                 ]
             }
         },
