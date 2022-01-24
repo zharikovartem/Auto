@@ -52,7 +52,7 @@
 			"\t",
 			"}",
 			"",
-			"export type MainPropsType = MapPropsType & MapDispatchPropsType & Own${1:ComponentName}PropsType",
+			"export type ${1:ComponentName}PropsType = MapPropsType & MapDispatchPropsType & Own${1:ComponentName}PropsType",
 			"",
 			"let mapStateToProps = (state:AppStateType) => {",
 			"\treturn {",

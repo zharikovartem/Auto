@@ -47,4 +47,15 @@
 		],
 		"description": "underscore separators"
 	},
+	"Api component": {
+		"prefix": ["1api", "for-const"],
+		"body": [
+			"import { instance, url } from './API'",
+			"",
+			"export const ${1:}API = {",
+			"\t",
+			"}"
+		],
+		"description": "create API component"
+	}
 }
