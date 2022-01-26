@@ -40,7 +40,7 @@
 		   
 		   //  first inefficient try, works for up to three words
 		   //  "${1} -> ${1/^([a-z]*)([A-Z])([a-z]+)*([A-Z])*([a-z]+)*/${1:/upcase}_$2${3:/upcase}${4:+_}$4${5:/upcase}/g}"
-		   "${1} -> ${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}",
+		   
 			// here is an especially gnarly version to handle edge cases like 'thisISABCTest' and trailing _'s
 		   "${1} -> ${1/([a-z]+)(?=[A-Z])|([A-Z])(?=[A-Z])|([A-Z][a-z]+)(?=$)|([A-Z][a-z]+)|([a-z]+)(?=$)/${1:/upcase}${1:+_}$2${2:+_}${3:/upcase}${4:/upcase}${4:+_}${5:/upcase}/g}"
 			
@@ -57,5 +57,57 @@
 			"}"
 		],
 		"description": "create API component"
+	}, 
+	"create reducer": {
+		"prefix": ["1cred", "for-const"],
+		"body": [
+			"import { Dispatch } from 'redux'",
+			"import { authAPI } from '../Api/authAPI'",
+			"import { BaseThunkType, InferActionsTypes } from './store'",
+			"",
+			"export type InitialStateType ={",
+			"\ttest: boolean",
+			"}",
+			"",
+			"let initialState:InitialStateType = {",
+			"\ttest: false",
+			"}",
+			"",
+			"type ActionsType = InferActionsTypes<typeof actions>",
+			"",
+			"const ${1:name}Reducer = (state = initialState, action: ActionsType): InitialStateType => {",
+			"\tswitch (action.type) {",
+			"\t\tcase '${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}/TEST':",
+            "\t\t\treturn {",
+            "    \t\t\t\t...state,",
+            "    \t\t\t\ttest: action.test",
+            "\t\t\t}",
+
+			"\t\tdefault:",
+            "\t\t\treturn state;",
+			"\t}",
+			"}",
+			"",
+			"export const actions = {",
+			// ": (test: boolean) => ({type: 'ABC/TETS', test} as const),",
+			"\tsetAction: (test: boolean) => ({type: '${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}/TEST', test} as const),",
+			"}",
+			"",
+			"export const getThunk = (): ThunkType => {",
+			"\treturn async (dispatch, getState) => {",
+			"\t\tconst response = await authAPI.tokenCheck()",
+			"\t\tif (response) {",
+			"\t\t\tdispatch( actions.setAction(true) )",
+			"\t\t}",
+			"\t}",
+			"}",
+			"",
+			"export default ${1:name}Reducer",
+			"",
+			"type ActionsTypes = InferActionsTypes<typeof actions>",
+			"type ThunkType = BaseThunkType<ActionsTypes>",
+			"export type DispatchType = Dispatch<ActionsTypes>"
+		],
+		"description": "Crete Reducer"
 	}
 }
