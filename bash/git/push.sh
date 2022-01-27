@@ -2,6 +2,9 @@
 
 bash bash/git/getInfo.sh
 
+git config user.name "zharikovartem"
+git config user.email 7383125@mail.ru
+
 read -p "Укажите имя коммита:   > " commit
 
 if [[ ${commit} == "" ]]
