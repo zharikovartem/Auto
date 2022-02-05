@@ -2,7 +2,7 @@
 clear
 # устанавливаем настройки git для Auto:
 git config user.name "zharikovartem"
-git config user.email 7383125@mail.ru
+git config user.email "7383125@mail.ru"
 
 read -p "Установить основные программы? y/n   >> " isMain
 echo $isMain

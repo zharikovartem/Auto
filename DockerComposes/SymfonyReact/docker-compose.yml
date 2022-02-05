@@ -1,0 +1,74 @@
+version: "3.7"
+
+services:
+
+  # db:
+  #   networks:
+  #       - internal
+  #   image: ${DATABASE_IMAGE}
+  #   volumes:
+  #       - ./docker/mysql/mysql-data:/var/lib/mysql
+  #       - ./docker/mysql/mysql-files:/var/lib/mysql-files
+  #       - ./docker/mysql/dumps:/docker-entrypoint-initdb.d
+  #       - ./docker/mysql/config/my.cnf:/etc/mysql/my.cnf
+  #   ports:
+  #       - ${DATABASE_PORT}:3306
+  #   environment:
+  #       MYSQL_DATABASE: ${DATABASE_NAME}
+  #       MYSQL_USER: ${DATABASE_USER}
+  #       MYSQL_PASSWORD: ${DATABASE_PASS}
+  #       MYSQL_ROOT_PASSWORD: ${DATABASE_PASS}
+
+  nginx:
+    build: docker/nginx
+    restart: on-failure
+    volumes:
+      # this will mount the api folder which contains the code to the docker container
+      - ${PWD}/api:/var/www/api:delegated
+      # this will mount the nginx logs so that you can check the logs for errors,
+      # without logging into the container
+      - ${PWD}/var/logs/nginx/:/var/log/nginx:delegated
+      # this will create the server config to serve the api
+      - ${PWD}/docker/nginx/api.conf:/etc/nginx/conf.d/api.conf:delegated
+    ports:
+    - "90:80"
+    depends_on:
+      - api
+      - ui
+    networks:
+      - monitoring
+
+  api:
+    build: docker/php
+    restart: on-failure
+    volumes:
+      # this will mount the api folder which contains the code to the docker container
+      - ${PWD}/api:/var/www/api:delegated
+      # this will mount the custom `.ini` to the container
+      - ${PWD}/docker/php/php.ini:/usr/local/etc/php/php.ini:ro
+    networks:
+      - monitoring
+
+  ui:
+      build: ./ui
+      restart: on-failure
+      # below line starts the project
+      command: "npm start"
+      depends_on:
+        - api
+      networks:
+        - monitoring
+      volumes:
+        # this will mount the ui folder which contains the code to the docker container
+        - ${PWD}/ui:/var/www/ui:delegated
+        # this will mount the node_modules folder for faster performance
+        - nodemodules:/var/www/ui/node_modules
+      ports:
+      - "3000:3000"
+
+networks:
+  monitoring:
+    driver: bridge
+
+volumes:
+  nodemodules: {}

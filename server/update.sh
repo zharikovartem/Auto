@@ -1,4 +1,5 @@
 #!/bin/bash
+# 
 clear
 
 echo 'Выберите проект:'
@@ -24,3 +25,6 @@ cd ~/$folder2
 pwd
 npm run build
 scp -r ./build/* root@135.181.90.157:/var/www/$name/html
+
+# scp -r ./build/* root@135.181.90.157:/var/www/crm_front_new/html
+# derect123##!
