@@ -22,6 +22,7 @@ RUN chown -R node /var/www/ui/node_modules
 # docker-compose exec ui chown -R node /var/www/ui/node_modules
 # docker-compose restart
 
+# docker-compose exec ui yarn start
 
 RUN yarn run build
 CMD yarn start
