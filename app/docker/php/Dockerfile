@@ -1,7 +1,5 @@
 FROM php:7-fpm-alpine
 
-MAINTAINER Mina Sami <mina.nsami@gmail.com>
-
 RUN apk update \
     && apk add git \
         curl \

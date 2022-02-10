@@ -64,6 +64,16 @@ fi
 
 sudo apt update
 
+# Shutter
+read -p "Установить Shutter(Редактор скриншотов)? y/n   >> " isShutter
+if [[ ${isShutter} == "y" ]]
+then
+    echo -e "\e[30;48;5;82m Устанавливется Shutter: \e[0;49m";
+    sudo add-apt-repository -y ppa:linuxuprising/shutter
+    sudo apt install shutter -y
+    
+fi
+
 read -p "Установить ssh ключи? y/n   >> " isSSH
 
 # add ssh

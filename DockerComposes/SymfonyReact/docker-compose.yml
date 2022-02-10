@@ -2,22 +2,26 @@ version: "3.7"
 
 services:
 
-  # db:
-  #   networks:
-  #       - internal
-  #   image: ${DATABASE_IMAGE}
-  #   volumes:
-  #       - ./docker/mysql/mysql-data:/var/lib/mysql
-  #       - ./docker/mysql/mysql-files:/var/lib/mysql-files
-  #       - ./docker/mysql/dumps:/docker-entrypoint-initdb.d
-  #       - ./docker/mysql/config/my.cnf:/etc/mysql/my.cnf
-  #   ports:
-  #       - ${DATABASE_PORT}:3306
-  #   environment:
-  #       MYSQL_DATABASE: ${DATABASE_NAME}
-  #       MYSQL_USER: ${DATABASE_USER}
-  #       MYSQL_PASSWORD: ${DATABASE_PASS}
-  #       MYSQL_ROOT_PASSWORD: ${DATABASE_PASS}
+  db:
+    networks:
+      - monitoring
+    image: mysql:8.0.21
+    volumes:
+      - ./docker/mysql/mysql-data:/var/lib/mysql
+      - ./docker/mysql/mysql-files:/var/lib/mysql-files
+      - ./docker/mysql/dumps:/docker-entrypoint-initdb.d
+      - ./docker/mysql/config/my.cnf:/etc/mysql/my.cnf
+    ports:
+      - 3316:3306
+    depends_on:
+      - api
+      - ui
+      - nginx
+    environment:
+        MYSQL_DATABASE: db
+        MYSQL_USER: db
+        MYSQL_PASSWORD: pass
+        MYSQL_ROOT_PASSWORD: rootpass
 
   nginx:
     build: docker/nginx

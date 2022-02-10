@@ -75,5 +75,14 @@
 			"}, []);"
 		],
 		"description": "add useEffect to code"
+	},
+
+	"useState": {
+		"prefix": ["1useState", "for-const"],
+		"body": [
+			"const [${1:name}, set${1:name}] = useState<${2:boolean}>(${3})",
+			
+		],
+		"description": "add useEffect to code"
 	}
 }

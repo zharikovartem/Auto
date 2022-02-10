@@ -5,8 +5,8 @@ FROM node:16-alpine3.11
 WORKDIR /var/www/ui
 
 COPY package.json /var/www/ui/
-COPY yarn.lock /var/www/ui/
-RUN yarn install
+# COPY yarn.lock /var/www/ui/
+# RUN yarn install
 RUN npm install -g --unsafe-perm=true --allow-root
 
 COPY . /var/www/ui
@@ -24,5 +24,6 @@ RUN chown -R node /var/www/ui/node_modules
 
 # docker-compose exec ui yarn start
 
-RUN yarn run build
-CMD yarn start
+# RUN yarn run build
+# CMD yarn start
+CMD npm run start
