@@ -4,6 +4,7 @@ bash bash/git/getInfo.sh
 
 git config user.name "zharikovartem"
 git config user.email 7383125@mail.ru
+# git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 read -p "Укажите имя коммита:   > " commit
 
