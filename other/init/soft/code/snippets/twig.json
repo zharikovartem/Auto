@@ -13,9 +13,25 @@
 	// 	"description": "Log output to console"
 	// }
 	"new div": {
-		"prefix": ["1div", "for-const"],
+		"prefix": ["1-div", "for-const"],
 		"body": [
 			"<div class=\"${1}\">${2}</div>"
 		]
-	}
+	},
+	"new if": {
+		"prefix": ["1-if", "for-const"],
+		"body": [
+			"{% if ${1:var} %}",
+			"\t",
+			"{% endif %}"
+		]
+	},
+	"new for": {
+		"prefix": ["1-for", "for-const"],
+		"body": [
+			"{% for ${2:item} in ${1:varible} %}",
+			"\t",
+			"{% endfor %}"
+		]
+	},
 }
