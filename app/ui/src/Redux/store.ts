@@ -1,8 +1,9 @@
 import {Action, applyMiddleware, combineReducers, createStore} from "redux"
 import thunkMiddleware, {ThunkAction} from "redux-thunk"
+import authReducer from "./authReducer"
 
 let rootReducer = combineReducers({
-
+    authReducer: authReducer,
 })
 
 type rootReducerType = typeof rootReducer

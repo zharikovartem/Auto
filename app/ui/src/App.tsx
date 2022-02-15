@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Menu from './Components/Menu/Menu'
 import 'antd/dist/antd.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import store from './Redux/store'
+import Main from './Containers/Maincontainer';
 
 function App() {
     return (
-        <div className="App">
-            <Menu />
-            <li>Реализовать роутинг</li>
-            <li>Реализовать авторизацию</li>
-            <li>Реализовать реализовать обращение к бд</li>
+        <div className="container">
+            <BrowserRouter>
+                <Provider store={store}>
+                    <Main />
+                </Provider>
+            </BrowserRouter>
         </div>
     )
 }

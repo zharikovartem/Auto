@@ -19,10 +19,10 @@ const MenuPage: React.FC = () => {
             <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Развитие">
                 <Menu.ItemGroup title="Планирование развития">
                     <Menu.Item key="setting:1">Dev план</Menu.Item>
-                    <Menu.Item key="setting:2">Option 2</Menu.Item>
+                    <Menu.Item key="setting:2">База знаний</Menu.Item>
                 </Menu.ItemGroup>
                 <Menu.ItemGroup title="Ход выполнения">
-                    <Menu.Item key="setting:3">Option 3</Menu.Item>
+                    <Menu.Item key="setting:3">График</Menu.Item>
                     <Menu.Item key="setting:4">Option 4</Menu.Item>
                 </Menu.ItemGroup>
             </SubMenu>

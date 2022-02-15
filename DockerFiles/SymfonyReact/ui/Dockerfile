@@ -23,6 +23,8 @@ RUN chown -R node /var/www/ui/node_modules
 # docker-compose restart
 
 # docker-compose exec ui yarn start
+# docker-compose exec ui npm run build
+# docker-compose exec logs ui
 
 # RUN yarn run build
 # CMD yarn start
