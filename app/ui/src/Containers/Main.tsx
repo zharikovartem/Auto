@@ -5,6 +5,7 @@ import Router from '../Components/Router/Router'
 import Menu from './../Components/Menu/Menu'
 import { MainPropsType } from './Maincontainer'
 import Register from '../Components/Register/Register'
+import KnowledgeBase from '../Components/KnowledgeBase/KnowledgeBase'
 
 const Main:React.FC<MainPropsType> = (props) => {
 
@@ -19,6 +20,7 @@ const Main:React.FC<MainPropsType> = (props) => {
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/register" element={<Register />} />
+                    <Route path="/knowledge_base" element={<KnowledgeBase />} />
                 </Routes>
             }
             

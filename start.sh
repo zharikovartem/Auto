@@ -9,5 +9,10 @@ then
     bash ${1}/start.sh
 else
     echo 'default start.sh'
+    code .
+    cd app
+    docker-compose start
+    cd ui
+    npm run start
 fi
 

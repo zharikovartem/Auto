@@ -1,9 +1,13 @@
 import React from 'react'
+import { Routes, Route} from 'react-router-dom'
+import Login from '../Login/LoginContainer'
 
 const Router:React.FC<RouterPropsType> = (props) => {
 
     return (
-        <>Router</>
+        <Routes>
+            <Route path="/" element={<Login />} />
+        </Routes>
     )
 }
 

@@ -1,0 +1,1036 @@
+2022/02/17 08:12:14 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/"" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\Response
+2022/02/17 08:12:14 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/favicon.ico" (from "http://localhost:90/")" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\Trace
+2022/02/17 08:12:14 [error] 23#23: *1 FastCGI sent in stderr: "t\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\Se
+2022/02/17 08:12:35 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/knowledge"" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureL
+2022/02/17 08:12:35 [error] 23#23: *2 FastCGI sent in stderr: "Listener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+2022/02/17 08:15:07 [error] 22#22: *8 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception ErrorException: "Notice: Undefined property: App\Controller\KnowledgeController::$entityManager" at /var/www/api/src/Controller/KnowledgeController.php line 17
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event 
+2022/02/17 08:15:07 [error] 22#22: *8 FastCGI sent in stderr: " listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKern
+2022/02/17 08:18:11 [error] 22#22: *11 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\Persistence\Mapping\MappingException: "Class 'App\Controller\Knowledge' does not exist" at /var/www/api/vendor/doctrine/persistence/lib/Doctrine/Persistence/Mapping/MappingException.php line 94
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRe
+2022/02/17 08:18:11 [error] 22#22: *11 FastCGI sent in stderr: "] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.respo
+2022/02/17 08:18:30 [error] 22#22: *10 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:18:30 [error] 22#22: *10 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:21:31 [error] 23#23: *15 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:21:31 [error] 23#23: *15 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:23:22 [error] 23#23: *18 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:23:22 [error] 23#23: *18 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:25:38 [error] 23#23: *21 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.19.0.1, server: api.local.internal, request: "GET /knowledge HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:90"
+2022/02/17 08:25:55 [error] 23#23: *22 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.19.0.1, server: api.local.internal, request: "GET /knowledge HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:90"
+2022/02/17 08:26:47 [error] 23#23: *24 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments"" while reading response header from upstream, client: 172.19.0.1, server: api.local.internal, request: "GET /knowledge HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost:90"
+2022/02/17 08:26:54 [error] 23#23: *24 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:26:54 [error] 23#23: *24 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:31:12 [error] 23#23: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:31:12 [error] 23#23: *29 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:32:08 [error] 23#23: *30 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:32:08 [error] 23#23: *30 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:33:40 [error] 22#22: *2 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/favicon.ico" (from "http://localhost:90/")" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\Trace
+2022/02/17 08:33:40 [error] 22#22: *2 FastCGI sent in stderr: "t\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\Se
+2022/02/17 08:33:59 [error] 22#22: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP 
+2022/02/17 08:33:59 [error] 22#22: *1 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to list
+2022/02/17 08:40:11 [error] 22#22: *6 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP 
+2022/02/17 08:40:11 [error] 22#22: *6 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to list
+2022/02/17 08:43:23 [error] 22#22: *9 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP 
+2022/02/17 08:43:23 [error] 22#22: *9 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to list
+2022/02/17 08:44:06 [error] 22#22: *10 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:44:06 [error] 22#22: *10 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:45:27 [error] 24#24: *14 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:45:27 [error] 24#24: *14 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:48:16 [error] 22#22: *18 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:48:16 [error] 22#22: *18 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:51:27 [error] 24#24: *20 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:51:27 [error] 24#24: *20 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:51:53 [error] 22#22: *21 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:51:53 [error] 22#22: *21 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:52:33 [error] 22#22: *23 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:52:33 [error] 22#22: *23 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:53:13 [error] 22#22: *25 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:53:13 [error] 22#22: *25 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:55:23 [error] 24#24: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:55:23 [error] 24#24: *29 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:55:33 [error] 24#24: *29 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:55:33 [error] 24#24: *29 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 08:55:57 [error] 24#24: *30 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 08:55:57 [error] 24#24: *30 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:00:50 [error] 22#22: *35 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:00:50 [error] 22#22: *35 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:01:18 [error] 22#22: *36 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:01:18 [error] 22#22: *36 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:01:36 [error] 22#22: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:01:36 [error] 22#22: *38 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:01:46 [error] 22#22: *38 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:01:46 [error] 22#22: *38 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:03:46 [error] 22#22: *43 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:03:46 [error] 22#22: *43 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:03:57 [error] 22#22: *43 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:03:57 [error] 22#22: *43 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:05:26 [error] 24#24: *47 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP
+2022/02/17 09:05:26 [error] 24#24: *47 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to lis
+2022/02/17 09:29:09 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/"" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\Response
+2022/02/17 09:29:09 [error] 23#23: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:90/favicon.ico" (from "http://localhost:90/")" at /var/www/api/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\Trace
+2022/02/17 09:29:09 [error] 23#23: *1 FastCGI sent in stderr: "t\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\Se
+2022/02/17 09:29:30 [error] 23#23: *2 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP 
+2022/02/17 09:29:30 [error] 23#23: *2 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to list
+2022/02/17 09:53:37 [error] 23#23: *8 FastCGI sent in stderr: "PHP message: [info] Matched route "knowledge-get".
+PHP message: [debug] Checking for authenticator support.
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception Doctrine\DBAL\Exception\DriverException: "An exception occurred in the driver: could not find driver" at /var/www/api/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php line 119
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP 
+2022/02/17 09:53:37 [error] 23#23: *8 FastCGI sent in stderr: "event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+PHP message: [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to list

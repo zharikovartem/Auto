@@ -40,7 +40,7 @@
 		"prefix": ["1cmp", "for-const"],
 		"body": [
 			"import {connect} from 'react-redux'",
-			"import { AppStateType } from './../Redux/store'",
+			"//import { AppStateType } from './../Redux/store'",
 			"import ${1:ComponentName} from './${1:ComponentName}'",
 			"",
 			"type MapPropsType = ReturnType<typeof mapStateToProps>",
@@ -48,23 +48,34 @@
 			"type MapDispatchPropsType = {",
 			"\t",
 			"}",
+			"",
 			"type Own${1:ComponentName}PropsType = {",
 			"\t",
 			"}",
 			"",
 			"export type ${1:ComponentName}PropsType = MapPropsType & MapDispatchPropsType & Own${1:ComponentName}PropsType",
 			"",
-			"let mapStateToProps = (state:AppStateType) => {",
+			"let mapStateToProps = (state: AppStateType) => {",
 			"\treturn {",
 			"\t\t",
 			"\t}",
 			"}",
 			"",
 			"export default connect<MapPropsType, MapDispatchPropsType, Own${1:ComponentName}PropsType, AppStateType>(mapStateToProps,",
-    		"\t{  }",
-    		"\t)",
-			"(${1:ComponentName})",
+    		"\t{}",
+    		")",
+			"\t(${1:ComponentName})",
 		]
+	},
+
+	"arrowFunction": {
+		"prefix": ["1arrowFunk", "for-const"],
+		"body": [
+			"const ${1: name} = (${2: value}: ${2: type}) => {",
+			"\t",
+			"}"
+		],
+		"description": "add useEffect to code"
 	},
 
 	"useEffect": {
@@ -80,8 +91,20 @@
 	"useState": {
 		"prefix": ["1useState", "for-const"],
 		"body": [
-			"const [${1:name}, set${1:name}] = useState<${2:boolean}>(${3})",
+			"const [${1:name}, set${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g}] = useState<${2:boolean}>(${3})",
 			
+		],
+		"description": "add useEffect to code"
+	},
+
+	"test": {
+		"prefix": ["1test", "for-const"],
+		"body": [
+			"${1:test}",
+			"${1:/capitalize}",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g}",
+
 		],
 		"description": "add useEffect to code"
 	}

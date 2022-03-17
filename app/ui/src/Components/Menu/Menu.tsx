@@ -1,6 +1,7 @@
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const { SubMenu } = Menu;
 
@@ -19,7 +20,9 @@ const MenuPage: React.FC = () => {
             <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Развитие">
                 <Menu.ItemGroup title="Планирование развития">
                     <Menu.Item key="setting:1">Dev план</Menu.Item>
-                    <Menu.Item key="setting:2">База знаний</Menu.Item>
+                    <Menu.Item key="setting:2">
+                        <Link to={'/knowledge_base/'}>База знаний</Link>
+                    </Menu.Item>
                 </Menu.ItemGroup>
                 <Menu.ItemGroup title="Ход выполнения">
                     <Menu.Item key="setting:3">График</Menu.Item>
