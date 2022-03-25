@@ -53,3 +53,6 @@ echo -e  " \e[30;48;5;82m git commit  \e[0;49m"
 git push --set-upstream origin ${branchNames[$tskId]}
 git push
 
+# create merge request
+# complete task
+# send message to QA
