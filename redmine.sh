@@ -47,7 +47,8 @@ echo ${branchNames[$tskId]}
 git checkout -b ${branchNames[$tskId]} master
 git add .
 git commit -am "${branchNames[$tskId]}"
-git push origin ${branchNames[$tskId]}
+git push
+# git push origin ${branchNames[$tskId]}
 # git checkout master
 # git merge --no-ff ${branchNames[$tskId]}
 # git push origin master
