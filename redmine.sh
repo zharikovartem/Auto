@@ -32,6 +32,7 @@ do
 
     file=`echo -n $name | sed 's/ /_/g'`
     file=`echo -n $file | sed 's/&quot;/"/g'`
+    file=`echo -n $file | sed 's/://g'`
 
     echo -e  " \e[30;48;5;82m ${ITER}) \e[0;49m $id-$file"
     branchNames+=("$id-$file")
