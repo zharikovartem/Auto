@@ -42,12 +42,16 @@ do
 done
 
 read -p "Выберите задачу   >> " tskId
-echo ${branchNames[$tskId]}
+# echo ${branchNames[$tskId]}
 
 git checkout -b ${branchNames[$tskId]} master
+echo -e  " \e[30;48;5;82m Переключили ветку на:  \e[0;49m${branchNames[$tskId]}"
 git add .
-git commit -am "${branchNames[$tskId]}"
-git push
+echo -e  " \e[30;48;5;82m git add .  \e[0;49m"
+git commit -m "${branchNames[$tskId]}"
+echo -e  " \e[30;48;5;82m git commit  \e[0;49m"
+# git push
+git push --set-upstream origin ${branchNames[$tskId]}
 # git push origin ${branchNames[$tskId]}
 # git checkout master
 # git merge --no-ff ${branchNames[$tskId]}
