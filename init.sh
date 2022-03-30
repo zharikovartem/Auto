@@ -76,6 +76,8 @@ fi
 
 read -p "Установить ssh ключи? y/n   >> " isSSH
 
+# https://github.com/flozz/nautilus-terminal
+
 # add ssh
 # chmod 700 ~/.ssh
 # chmod 600 ~/.ssh/id_rsa

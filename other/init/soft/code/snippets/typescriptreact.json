@@ -71,7 +71,7 @@
 	"arrowFunction": {
 		"prefix": ["1arrowFunk", "for-const"],
 		"body": [
-			"const ${1: name} = (${2: value}: ${2: type}) => {",
+			"const ${1: name} = (${2}) => {",
 			"\t",
 			"}"
 		],
@@ -91,7 +91,7 @@
 	"useState": {
 		"prefix": ["1useState", "for-const"],
 		"body": [
-			"const [${1:name}, set${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g}] = useState<${2:boolean}>(${3})",
+			"const [${1:name}, set${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}$3${4:/camelcase}/g}] = useState<${2:any}>(${3})",
 			
 		],
 		"description": "add useEffect to code"
@@ -101,10 +101,17 @@
 		"prefix": ["1test", "for-const"],
 		"body": [
 			"${1:test}",
-			"${1:/capitalize}",
-			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}",
-			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g}",
-
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g} - upcase",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g} - capitalize",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/camelcase}${2:+_}$3${4:/camelcase}/g} - camelcase",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/pascalcase}${2:+_}$3${4:/pascalcase}/g} - pascalcase",
+			"",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}$3${4:/capitalize}/g} - capitalize",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}${2:+_}$3${4:/capitalize}/g} - capitalize",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/capitalize}$3${4:/camelcase}/g} - camelcase",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/pascalcase}${2:+_}$3${4:/pascalcase}/g} - pascalcase",
+			"${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/pascalcase}$3${4:/pascalcase}/g} - pascalcase",
+			// '/upcase' | '/downcase' | '/capitalize' | '/camelcase' | '/pascalcase
 		],
 		"description": "add useEffect to code"
 	}
