@@ -72,7 +72,21 @@ then
     echo -e "\e[30;48;5;82m Устанавливется Shutter: \e[0;49m";
     sudo add-apt-repository -y ppa:linuxuprising/shutter
     sudo apt install shutter -y
+    sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
+    sudo apt install php8.2 -y
+fi
+
+read -p "Установить PHP 8.2? y/n   >> " isPhp
+if [[ ${isPhp} == "y" ]]
+then
+    echo -e "\e[30;48;5;82m Устанавливется PHP 8.2: \e[0;49m";
     
+    LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php
+    sudo apt install software-properties-common
+    sudo apt install php8.2 libapache2-mod-php8.2 php8.2-mysql
+    sudo apt install php8.2 php8.2-fpm php8.2-mysql
+
+    sudo apt install php-pear
 fi
 
 read -p "Установить ssh ключи? y/n   >> " isSSH
@@ -102,3 +116,5 @@ gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell fav
 
 
 # Запустить все программы нуждающиеся в ручных настройках
+# Настроить DBeaver
+
