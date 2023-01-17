@@ -18,8 +18,8 @@ then
     # https://stackoverflow.com/questions/41195952/updating-nodejs-on-ubuntu-16-04
     # bash other/init/install.sh nodejs
     # bash other/init/install.sh npm
-    # sudo apt install npm -y
-    # bash other/init/install.sh composer
+    sudo apt install npm -y
+    bash other/init/install.sh composer
     bash other/init/install.sh dbeaver-ce
     bash other/init/install.sh postman
     # !!!!!!!!!!!!
@@ -31,10 +31,11 @@ if [[ $isMeseengers == "y" ]]
 then
     echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
     echo ''
-    bash other/init/install.sh  telegram-desktop
-    bash other/init/install.sh  slack
-    bash other/init/install.sh  skype
-    bash other/init/install.sh  viber
+    # bash other/init/install.sh  telegram-desktop
+    # bash other/init/install.sh  slack
+    # bash other/init/install.sh  skype
+    # bash other/init/install.sh  viber
+
     sudo snap install whatsdesk
 fi
 
@@ -82,3 +83,22 @@ read -p "Установить ssh ключи? y/n   >> " isSSH
 # chmod 700 ~/.ssh
 # chmod 600 ~/.ssh/id_rsa
 # chmod 644 ~/.ssh/*.pub
+
+# nautilus-terminal (терминал в папке)
+sudo apt install python3-nautilus python3-psutil python3-pip libglib2.0-bin dconf-editor
+sudo pip3 install nautilus-terminal
+sudo nautilus-terminal --install-system
+nautilus -q
+
+# Настроить Chrome
+
+# Добавить favorites
+    # Вывести список добавленных:
+    # gsettings get org.gnome.shell favorite-apps
+gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 
+    'google-chrome.desktop', 
+    'code_code.desktop'
+    ]"
+
+
+# Запустить все программы нуждающиеся в ручных настройках
