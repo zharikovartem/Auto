@@ -31,11 +31,10 @@ if [[ $isMeseengers == "y" ]]
 then
     echo -e "\e[30;48;5;82m Мессенджеры: \e[0;49m";
     echo ''
-    # bash other/init/install.sh  telegram-desktop
-    # bash other/init/install.sh  slack
-    # bash other/init/install.sh  skype
-    # bash other/init/install.sh  viber
-
+    bash other/init/install.sh  telegram-desktop
+    bash other/init/install.sh  slack
+    bash other/init/install.sh  skype
+    bash other/init/install.sh  viber
     sudo snap install whatsdesk
 fi
 
@@ -111,7 +110,13 @@ nautilus -q
     # gsettings get org.gnome.shell favorite-apps
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 
     'google-chrome.desktop', 
-    'code_code.desktop'
+    'code_code.desktop',
+    'org.gnome.Nautilus.desktop', 
+    'telegram-desktop_telegram-desktop.desktop', 
+    'slack_slack.desktop', 'postman_postman.desktop', 
+    'dbeaver-ce_dbeaver-ce.desktop', 
+    'org.gnome.gedit.desktop', 
+    'org.gnome.Terminal.desktop'
     ]"
 
 
