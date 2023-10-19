@@ -1,17 +1,51 @@
 {
-	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
+	"Create Fetch": {
+		"prefix": ["1fetch", "for-const"],
+		"description": "Create new Thunck creator",
+		"body": [
+			"import { createAsyncThunk } from '@reduxjs/toolkit'",
+			"import { ThunkConfig } from '../../../config/StateSchema'",
+			"import { PaginationParamsType } from '../../../../../ui-kit/Table/types/query'",
+			"import { handleServerNetworkError } from '../../../../../helpers/error-helpers'",
+			"import { prepareFilterParams } from '../../../../../Api/API'",
+			"",
+			"type ResponseType = {",
+				"\t",
+			"}",
+			"",
+			"type ApiResponseType = {",
+				"\t",
+			"}",
+			"",
+			"type RequestPropsType = {",
+				"\tprojectId: number",
+				"\tparams?: PaginationParamsType",
+			"}",
+			"",
+			"export const ${1:ThunkName} = createAsyncThunk<",
+				"\tResponseType,",
+				"\tRequestPropsType,",
+				"\tThunkConfig<any>",
+			">(",
+			// "\t'${2:slice}/${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/upcase}${2:+_}$3${4:/upcase}/g}',", //Работает с uppercase
+			"\t'${2:slice}/${1/([a-z]*)(([A-Z])+([a-z]+))?/${1:/downcase}${2:+_}${3:/downcase}$4/g}',",
+			"\tasync (data, thunkApi) => {",
+			"\t\tconst query = data.params ? prepareFilterParams(data.params) : ''",
+			"\t\ttry {",
+			"\t\t\tconst res = await thunkApi.extra.api().get<ApiResponseType>(`project/${data.projectId}/client-managers?`+query)",
+			"\t\t\t",
+			"\t\t\treturn res.data",
+			"\t\t} catch (e) {",
+			"\t\t\thandleServerNetworkError(e, thunkApi.dispatch, 'Не удалось получить список менеджеров клиента')",
+			"\t\t} finally {",
+			"\t\t\t",
+			"\t\t}",
+			"\t}",
+			"\t",
+			")",
+
+		]
+	}, 
 	"Create Thunk": {
 		"prefix": ["1rthunk", "for-const"],
 		"description": "Create new Thunck creator",
@@ -109,5 +143,15 @@
 			"export type DispatchType = Dispatch<ActionsTypes>"
 		],
 		"description": "Crete Reducer"
-	}
+	},
+
+	"arrowFunction": {
+		"prefix": ["1arrowFunk", "for-const"],
+		"body": [
+			"const ${1: name} = (${2}) => {",
+			"\t",
+			"}"
+		],
+		"description": "add useEffect to code"
+	},
 }
