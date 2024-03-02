@@ -1,6 +1,6 @@
 #!/bin/bash
 # clear; bash deploy.sh
-# 1
+# 2
 
 read -p "Куде деплоим? (dev/prod):   > " envType
 
