@@ -71,7 +71,7 @@
 	"arrowFunction": {
 		"prefix": ["1arrowFunk", "for-const"],
 		"body": [
-			"const ${1: name} = (${2}) => {",
+			"const ${1:name} = (${2}) => {",
 			"\t",
 			"}"
 		],
