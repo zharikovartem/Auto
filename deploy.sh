@@ -23,9 +23,23 @@ git push
 git checkout $envType
 # ?Возвращаем изменения
 git stash pop
-git add .
-git commit -m "$COMMIT_NAME"
-git push
+# git add .
+# git commit -m "$COMMIT_NAME"
+# git push
+
+
+read -p "Нужен ли git push? y/n:   > " isGitPush
+if [[ ${isGitPush} == "y" ]]
+then
+    read -p "Укажите имя коммита:   > " commit
+    if [[ ${commit} == "" ]]
+    then
+        commit="no name"
+    fi
+    git add .
+    git commit -m "${commit}"
+    git push
+fi
 
 
 
