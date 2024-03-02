@@ -16,7 +16,7 @@ git fetch
 git stash
 # 3 Переходим на целевую ветку и заливаем комит
 git checkout $BACKUP_BRANCH
-git merge $envType
+git merge $envType -m "$COMMIT_NAME"
 git add .
 git commit -m "$COMMIT_NAME"
 git push
