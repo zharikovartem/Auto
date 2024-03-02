@@ -1,6 +1,6 @@
 #!/bin/bash
 # clear; bash deploy.sh
-# version 2
+# version 3
 
 read -p "Куде деплоим? (dev/prod):   > " envType
 
@@ -15,9 +15,8 @@ git fetch
 # 2 Убираем все изменения
 git stash
 # 3 Переходим на целевую ветку и заливаем комит
-git checkout $envType
-git merge $BACKUP_BRANCH
 git checkout $BACKUP_BRANCH
+git merge $envType
 git add .
 git commit -m "$COMMIT_NAME"
 git push
